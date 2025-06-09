@@ -1,70 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes-->
-  <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r25"/>
+  <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
 
-  <remote name="aosp-bluejay"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r22"/>
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 
-  <remote name="aosp-felix"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r22"/>
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-14.0.0_r25"/>
 
-  <remote name="aosp-lynx"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r22"/>
-
-  <remote name="aosp-pantah"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r22"/>
-
-  <remote name="aosp-raviole"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r22"/>
-
-  <remote name="aosp-shusky"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r25"/>
-
-  <remote name="aosp-tangorpro"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-14.0.0_r22"/>
-
-  <remote name="github"
-          fetch=".."
-          review="review.lineageos.org"/>
-
-  <remote name="gl-incom-ssh"
-          fetch="ssh://git@gitlab.incom.co:22
-          /"/>
-  <remote
-    name="gl-ssh"
-    fetch="ssh://git@gitlab.com:22/"/>
-
-  <remote
-    name="private"
-    fetch="ssh://git@github.com"/>
-
-  <default
-    remote="github"
-    revision="refs/heads/lineage-21.0"
-    sync-j="4"
-    sync-c="true"/>
+  <default revision="refs/heads/lineage-21.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r25"/>
   <contactinfo bugurl="go/repo-bug"/>
+
   <project name="device/common" remote="aosp" revision="bf137260a72ce94a3fecba7397a0004cd9706602" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-cw-fs,pdk"/>
   <project name="device/generic/arm64" remote="aosp" revision="c3df6ff97a7cc229da9e4e67840660a76bbcfcc1" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk"/>
   <project name="device/generic/armv7-a-neon" remote="aosp" revision="3ba077fbb422efc4b2117857cf73e64509f2bd0b" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk"/>
@@ -1129,8 +1085,5 @@
   <project name="toolchain/pgo-profiles" remote="aosp" revision="6e11afc847b4f177373d301e705a1d753dee1dda" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk"/>
   <project name="tools/platform-compat" remote="aosp" revision="1dab6d1f96ae96b17a0e9d77f55de0c81a4ada50" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-cw-fs,pdk-fs,pdk"/>
 
-  <include name="snippets/lineageos.xml" />
-  <!-- <include name="snippets/nolens-devices.xml" /> -->
-  <!-- <include name="snippets/oddsolutions.xml" /> -->
-
+  <include name="snippets/lineage.xml" />
 </manifest>
