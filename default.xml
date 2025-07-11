@@ -901,7 +901,7 @@
   <project name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices" remote="aosp" revision="96061ec158ae151fde39fa8b86e32d60b4f1738d" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/GeoTZ" path="packages/modules/GeoTZ" remote="aosp" revision="1acfbef7cc521db4558145f893fa5763a9e1bbaa" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/Gki" path="packages/modules/Gki" remote="aosp" revision="fbf62f8632731c3c78cfbfce15e6cd4c2079978a" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="platform/packages/modules/HealthFitness" path="packages/modules/HealthFitness" remote="aosp" revision="dc278045e28902b2d953e603d362f26e1b49480f" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-fs"/>
+  <!-- <project name="platform/packages/modules/HealthFitness" path="packages/modules/HealthFitness" remote="aosp" revision="dc278045e28902b2d953e603d362f26e1b49480f" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-fs"/> -->
   <project name="platform/packages/modules/IPsec" path="packages/modules/IPsec" remote="aosp" revision="97c7963ea27927e54225e1cc48b6d603301195fa" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk"/>
   <project name="platform/packages/modules/ImsMedia" path="packages/modules/ImsMedia" remote="aosp" revision="db3f4311bc016827712efb263d76f91ee83352a8" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk"/>
   <project name="platform/packages/modules/IntentResolver" path="packages/modules/IntentResolver" remote="aosp" revision="6eaa8031b94e993a848d1a774450d7f5c342c32e" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk"/>
@@ -1086,4 +1086,5 @@
   <project name="tools/platform-compat" remote="aosp" revision="1dab6d1f96ae96b17a0e9d77f55de0c81a4ada50" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-cw-fs,pdk-fs,pdk"/>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/los21-pre-qpr2.xml" />
 </manifest>
