@@ -9,6 +9,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+  <project name="LOS21-pre-QPR2/android_external_sonivox" path="external/sonivox" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_av" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_base" path="frameworks/base" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Settings" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
