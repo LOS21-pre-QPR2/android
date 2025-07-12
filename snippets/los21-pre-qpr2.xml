@@ -10,6 +10,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="LOS21-pre-QPR2/android_external_dng_sdk" path="external/dng_sdk" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_external_freetype" path="external/freetype" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_giflib" path="external/giflib" revision="lineage-21.0" groups="pdk,qcom_msm8x26"/>
   <project name="LOS21-pre-QPR2/android_external_skia" path="external/skia" revision="lineage-21.0" groups="pdk,qcom_msm8x26"/>
   <project name="LOS21-pre-QPR2/android_external_sonivox" path="external/sonivox" revision="lineage-21.0" groups="pdk"/>
