@@ -16,5 +16,6 @@
   <project name="LOS21-pre-QPR2/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_HealthFitness" path="packages/modules/HealthFitness" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_StatsD" path="packages/modules/StatsD" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_system_libfmq" path="system/libfmq" revision="lineage-21.0" groups="pdk"/>
 </manifest>
