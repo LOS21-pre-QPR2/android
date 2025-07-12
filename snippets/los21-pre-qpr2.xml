@@ -17,6 +17,7 @@
   <project name="LOS21-pre-QPR2/android_frameworks_native" path="frameworks/native" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_hardware_interfaces" path="hardware/interfaces" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_libcore" path="libcore" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Settings" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_HealthFitness" path="packages/modules/HealthFitness" revision="lineage-21.0" groups="pdk-fs"/>
