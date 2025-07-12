@@ -9,6 +9,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+  <project name="LOS21-pre-QPR2/android_external_skia" path="external/skia" revision="lineage-21.0" groups="pdk,qcom_msm8x26"/>
   <project name="LOS21-pre-QPR2/android_external_sonivox" path="external/sonivox" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_av" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_base" path="frameworks/base" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
@@ -26,6 +27,7 @@
   <project name="LOS21-pre-QPR2/android_packages_modules_Wifi" path="packages/modules/Wifi" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Telecomm" path="packages/services/Telecomm" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_system_keymint" path="system/keymint" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_libfmq" path="system/libfmq" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_nfc" path="system/nfc" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_security" path="system/security" revision="lineage-21.0" groups="pdk"/>
