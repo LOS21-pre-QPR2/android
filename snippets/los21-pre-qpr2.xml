@@ -20,12 +20,15 @@
   <project name="LOS21-pre-QPR2/android_frameworks_libs_modules-utils" path="frameworks/libs/modules-utils" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_frameworks_libs_net" path="frameworks/libs/net" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_frameworks_native" path="frameworks/native" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_frameworks_opt_telephony" path="frameworks/opt/telephony" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_hardware_interfaces" path="hardware/interfaces" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_libcore" path="libcore" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Settings" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_packages_modules_CellBroadcastService" path="packages/modules/CellBroadcastService" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_Connectivity" path="packages/modules/Connectivity" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_HealthFitness" path="packages/modules/HealthFitness" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_IntentResolver" path="packages/modules/IntentResolver" revision="lineage-21.0" groups="pdk"/>
