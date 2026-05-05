@@ -32,6 +32,7 @@
   <project name="LOS21-pre-QPR2/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Settings" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_packages_modules_adb" path="packages/modules/adb" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_CellBroadcastService" path="packages/modules/CellBroadcastService" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_Connectivity" path="packages/modules/Connectivity" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
