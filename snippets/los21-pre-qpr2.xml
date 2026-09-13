@@ -2,6 +2,7 @@
 <manifest>
   <project name="LOS21-pre-QPR2/android" path="android" revision="lineage-21.0"/>
   <project name="LOS21-pre-QPR2/android_art" path="art" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_bionic" path="bionic" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_build" path="build/make" revision="lineage-21.0" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -11,13 +12,17 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
   <project name="LOS21-pre-QPR2/android_cts" path="cts" revision="lineage-21.0" groups="cts,pdk-cw-fs,pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_development" path="development" revision="lineage-21.0" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_external_dng_sdk" path="external/dng_sdk" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_external_exfatprogs" path="external/exfatprogs" revision="lineage-21.0"/>
   <project name="LOS21-pre-QPR2/android_external_freetype" path="external/freetype" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_giflib" path="external/giflib" revision="lineage-21.0" groups="pdk,qcom_msm8x26"/>
+  <project name="LOS21-pre-QPR2/android_external_libhevc" path="external/libhevc" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_libpng" path="external/libpng" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_skia" path="external/skia" revision="lineage-21.0" groups="pdk,qcom_msm8x26"/>
   <project name="LOS21-pre-QPR2/android_external_sonivox" path="external/sonivox" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_sqlite" path="external/sqlite" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_av" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_base" path="frameworks/base" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_frameworks_libs_modules-utils" path="frameworks/libs/modules-utils" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
@@ -27,6 +32,7 @@
   <project name="LOS21-pre-QPR2/android_hardware_interfaces" path="hardware/interfaces" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_hardware_st_nfc" path="hardware/st/nfc" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_libcore" path="libcore" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_packages_apps_Car_Settings" path="packages/apps/Car/Settings" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
@@ -35,6 +41,8 @@
   <project name="LOS21-pre-QPR2/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="lineage-21.0" groups="apps_nfc,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Settings" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_packages_apps_TV" path="packages/apps/TV" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_adb" path="packages/modules/adb" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_CellBroadcastService" path="packages/modules/CellBroadcastService" revision="lineage-21.0" groups="pdk"/>
@@ -50,13 +58,17 @@
   <project name="LOS21-pre-QPR2/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_packages_services_BuiltInPrintService" path="packages/services/BuiltInPrintService" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Car" path="packages/services/Car" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Mms" path="packages/services/Mms" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Telecomm" path="packages/services/Telecomm" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Telephony" path="packages/services/Telephony" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_system_core" path="system/core" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_keymint" path="system/keymint" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_system_incremental_delivery" path="system/incremental_delivery" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_libfmq" path="system/libfmq" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_system_libufdt" path="system/libufdt" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_system_media" path="system/media" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_nfc" path="system/nfc" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_security" path="system/security" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_system_sepolicy" path="system/sepolicy" revision="lineage-21.0" groups="pdk"/>
