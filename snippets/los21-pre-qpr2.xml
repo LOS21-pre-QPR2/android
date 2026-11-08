@@ -13,6 +13,8 @@
   </project>
   <project name="LOS21-pre-QPR2/android_cts" path="cts" revision="lineage-21.0" groups="cts,pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_development" path="development" revision="lineage-21.0" groups="developers,pdk-cw-fs,pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_external_aac" path="external/aac" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_external_avb" path="external/avb" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_dng_sdk" path="external/dng_sdk" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_exfatprogs" path="external/exfatprogs" revision="lineage-21.0"/>
   <project name="LOS21-pre-QPR2/android_external_freetype" path="external/freetype" revision="lineage-21.0" groups="pdk"/>
@@ -22,6 +24,7 @@
   <project name="LOS21-pre-QPR2/android_external_skia" path="external/skia" revision="lineage-21.0" groups="pdk,qcom_msm8x26"/>
   <project name="LOS21-pre-QPR2/android_external_sonivox" path="external/sonivox" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_sqlite" path="external/sqlite" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_external_tremolo" path="external/tremolo" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_av" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
   <project name="LOS21-pre-QPR2/android_frameworks_base" path="frameworks/base" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
@@ -49,6 +52,7 @@
   <project name="LOS21-pre-QPR2/android_packages_modules_Connectivity" path="packages/modules/Connectivity" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_HealthFitness" path="packages/modules/HealthFitness" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_IntentResolver" path="packages/modules/IntentResolver" revision="lineage-21.0" groups="pdk"/>
+  <project name="LOS21-pre-QPR2/android_packages_modules_NeuralNetworks" path="packages/modules/NeuralNetworks" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_Permission" path="packages/modules/Permission" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_RemoteKeyProvisioning" path="packages/modules/RemoteKeyProvisioning" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_modules_StatsD" path="packages/modules/StatsD" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
@@ -60,6 +64,7 @@
   <project name="LOS21-pre-QPR2/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_BuiltInPrintService" path="packages/services/BuiltInPrintService" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Car" path="packages/services/Car" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="LOS21-pre-QPR2/android_packages_services_Iwlan" path="packages/services/Iwlan" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Mms" path="packages/services/Mms" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Telecomm" path="packages/services/Telecomm" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LOS21-pre-QPR2/android_packages_services_Telephony" path="packages/services/Telephony" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>

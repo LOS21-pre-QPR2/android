@@ -33,7 +33,7 @@
   <project name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" revision="fa22f5cec501b961afbfa0a15a64d52fa2d57e8c" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="qcom"/>
   <project name="LineageOS/android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" revision="ce589dc08e4215b063bfac73eb7b9b52cf46d944" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="qcom,qssi"/>
   <project name="LineageOS/android_external_arm-trusted-firmware" path="external/arm-trusted-firmware" revision="d545cdd22dd0b679dc7217b186e7346dee616a5f" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/>
-  <project name="LineageOS/android_external_avb" path="external/avb" revision="5a923b399fdb9bb30f36e7f003c193eafdeb56d6" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/>
+  <!-- <project name="LineageOS/android_external_avb" path="external/avb" revision="5a923b399fdb9bb30f36e7f003c193eafdeb56d6" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/> -->
   <project name="LineageOS/android_external_bash" path="external/bash" revision="9f59ea3199a83697b4e1adcd4ac35484ac824c67" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0"/>
   <project name="LineageOS/android_external_bson" path="external/bson" revision="ec09ff2859b4f2b1d5591b2e595d3b586c391f59" upstream="lineage-21" dest-branch="lineage-21" groups="local::devices"/>
   <project name="LineageOS/android_external_chromium-webview_patches" path="external/chromium-webview/patches" revision="main" groups="pdk">
